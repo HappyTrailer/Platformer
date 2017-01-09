@@ -45,9 +45,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\PlayerController.cs" />
-     <Compile Include="Assets\SpriteOutline.cs" />
-     <None Include="Assets\Sprites-Outline.shader" />
+     <Compile Include="Assets\Scripts\Players\Assistent.cs" />
+     <Compile Include="Assets\Scripts\Players\ChekGround.cs" />
+     <Compile Include="Assets\Scripts\Players\Player.cs" />
+     <Compile Include="Assets\Scripts\Players\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\UI\SpriteOutline.cs" />
+     <None Include="Assets\Resources\Materials\Sprites-Outline.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
