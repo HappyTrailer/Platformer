@@ -12,7 +12,7 @@ public class Player : MonoBehaviour {
         if (PlayerController.currentPlayer == gameObject)
         {
             float moveH = Input.GetAxis("Horizontal");
-            GetComponent<Rigidbody2D>().velocity = new Vector2(moveH * speed, GetComponent<Rigidbody2D>().velocity.y);
+            transform.position += new Vector3(moveH * speed * Time.deltaTime, 0f);
             if (Input.GetKeyDown(KeyCode.Space) && grounded)
             {
                 GetComponent<Rigidbody2D>().AddForce(Vector2.up * jump);
