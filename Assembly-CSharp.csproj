@@ -45,11 +45,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Mobs\Mob.cs" />
      <Compile Include="Assets\Scripts\Players\Assistent.cs" />
      <Compile Include="Assets\Scripts\Players\ChekGround.cs" />
      <Compile Include="Assets\Scripts\Players\Player.cs" />
      <Compile Include="Assets\Scripts\Players\PlayerController.cs" />
      <Compile Include="Assets\Scripts\UI\SpriteOutline.cs" />
+     <Compile Include="Assets\Scripts\World\Joiner.cs" />
      <Compile Include="Assets\Scripts\World\Trigger.cs" />
      <None Include="Assets\Resources\Materials\Sprites-Outline.shader" />
  <Reference Include="UnityEngine.UI">
